@@ -1,0 +1,28 @@
+[package]
+name = "zero2prod"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+# developing loop
+# cargo watch -x check -x test -x run
+
+# CI pipeline
+
+# run tests
+# cargo test
+
+# code coverage
+# cargo tarpaulin --ignore-tests
+
+# linting warnings
+# cargo clippy -- -D warnings
+
+# format warnings
+# cargo fmt -- --check
+
+# vulnerability check
+# cargo audit
+
+[dependencies]
